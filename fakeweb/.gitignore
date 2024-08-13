@@ -12,5 +12,9 @@
 *.vsix
 
 venv/
+
 .env
+
 db.sqlite3
+
+__pycache__/

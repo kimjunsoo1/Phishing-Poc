@@ -1,0 +1,365 @@
+{% load static %}
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript">
+        document.documentElement.setAttribute('lang', navigator.language);
+    </script>
+           
+        <title>로그인 - WIKI</title>     
+
+            <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+
+<meta id="confluence-context-path" name="confluence-context-path" content="">
+<meta id="confluence-base-url" name="confluence-base-url" content="https://wiki.skplanet.com">
+<meta id="atlassian-token" name="atlassian-token" content="34c13b6ef852c6fc6220ee2a108fb67bdd14324f">
+<script type="text/javascript">
+        var contextPath = '';
+</script>
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="robots" content="noarchive">
+    <meta name="confluence-request-time" content="1723515928895">    
+        
+            <meta name="ajs-use-keyboard-shortcuts" content="true">
+            <meta name="ajs-discovered-plugin-features" content="$discoveredList">
+            <meta name="ajs-keyboardshortcut-hash" content="410c008976af59829da8b35a797106ff">
+            <meta id="team-calendars-has-jira-link" content="true">
+            <meta name="ajs-team-calendars-display-time-format" content="displayTimeFormat12">
+            <meta id="team-calendars-display-week-number" content="false">
+            <meta id="team-calendars-user-timezone" content="Asia/Seoul">
+            <script type="text/x-template" id="team-calendars-messages" title="team-calendars-messages"><fieldset class="i18n hidden"><input type="hidden" name="calendar3.month.long.july" value="7월"><input type="hidden" name="calendar3.day.short.wednesday" value="수"><input type="hidden" name="calendar3.day.short.thursday" value="목"><input type="hidden" name="calendar3.month.short.march" value="3월"><input type="hidden" name="calendar3.month.long.april" value="4월"><input type="hidden" name="calendar3.month.long.october" value="10월"><input type="hidden" name="calendar3.month.long.august" value="8월"><input type="hidden" name="calendar3.month.short.july" value="7월"><input type="hidden" name="calendar3.month.short.may" value="5월"><input type="hidden" name="calendar3.month.short.november" value="11월"><input type="hidden" name="calendar3.day.long.friday" value="금요일"><input type="hidden" name="calendar3.day.long.sunday" value="일요일"><input type="hidden" name="calendar3.day.long.saturday" value="토요일"><input type="hidden" name="calendar3.month.short.april" value="4월"><input type="hidden" name="calendar3.day.long.wednesday" value="수요일"><input type="hidden" name="calendar3.month.long.december" value="12월"><input type="hidden" name="calendar3.month.short.october" value="10월"><input type="hidden" name="calendar3.day.long.monday" value="월요일"><input type="hidden" name="calendar3.month.short.june" value="6월"><input type="hidden" name="calendar3.day.short.monday" value="월"><input type="hidden" name="calendar3.day.short.tuesday" value="화"><input type="hidden" name="calendar3.day.short.saturday" value="토"><input type="hidden" name="calendar3.month.long.march" value="3월"><input type="hidden" name="calendar3.month.long.june" value="6월"><input type="hidden" name="calendar3.month.short.february" value="2월"><input type="hidden" name="calendar3.month.short.august" value="8월"><input type="hidden" name="calendar3.month.short.december" value="12월"><input type="hidden" name="calendar3.day.short.sunday" value="일"><input type="hidden" name="calendar3.month.long.february" value="2월"><input type="hidden" name="calendar3.day.long.tuesday" value="화요일"><input type="hidden" name="calendar3.month.long.may" value="5월"><input type="hidden" name="calendar3.month.long.september" value="9월"><input type="hidden" name="calendar3.month.long.november" value="11월"><input type="hidden" name="calendar3.month.short.january" value="1월"><input type="hidden" name="calendar3.month.short.september" value="9월"><input type="hidden" name="calendar3.day.long.thursday" value="목요일"><input type="hidden" name="calendar3.month.long.january" value="1월"><input type="hidden" name="calendar3.day.short.friday" value="금"></fieldset></script>
+            <meta name="ajs-is-confluence-admin" content="false">
+            <meta name="ajs-connection-timeout" content="10000">
+            <script type="text/x-template" title="gliffy-webpanel-footer">
+        <div class="gliffy-webpanel-footer"><span></span></div>
+</script>
+    
+            <meta name="ajs-context-path" content="">
+            <meta name="ajs-base-url" content="https://wiki.skplanet.com">
+            <meta name="ajs-version-number" content="7.19.19">
+            <meta name="ajs-build-number" content="8804">
+            <meta name="ajs-remote-user" content="">
+            <meta name="ajs-remote-user-key" content="">
+            <meta name="ajs-remote-user-has-licensed-access" content="false">
+            <meta name="ajs-remote-user-has-browse-users-permission" content="false">
+            <meta name="ajs-current-user-fullname" content="">
+            <meta name="ajs-current-user-avatar-url" content="">
+            <meta name="ajs-current-user-avatar-uri-reference" content="/images/icons/profilepics/anonymous.svg">
+            <meta name="ajs-static-resource-url-prefix" content="/s/-ajrdci/8804/47zayh/_">
+            <meta name="ajs-global-settings-attachment-max-size" content="99999967">
+            <meta name="ajs-global-settings-quick-search-enabled" content="true">
+            <meta name="ajs-user-locale" content="ko_KR">
+            <meta name="ajs-user-timezone-offset" content="32400000">
+            <meta name="ajs-enabled-dark-features" content="site-wide.shared-drafts,site-wide.synchrony,clc.quick.create,confluence.view.edit.transition,cql.search.screen,confluence-inline-comments-resolved,frontend.editor.v4,http.session.registrar,nps.survey.inline.dialog,confluence.efi.onboarding.new.templates,frontend.editor.v4.compatibility,atlassian.cdn.static.assets,pdf-preview,previews.sharing,previews.versions,file-annotations,confluence.efi.onboarding.rich.space.content,collaborative-audit-log,confluence.reindex.improvements,previews.conversion-service,editor.ajax.save,read.only.mode,graphql,previews.trigger-all-file-types,attachment.extracted.text.extractor,lucene.caching.filter,confluence.table.resizable,notification.batch,previews.sharing.pushstate,confluence-inline-comments-rich-editor,tc.tacca.dacca,site-wide.synchrony.opt-in,atlassian.webresource.twophase.js.i18n.disabled,confluence.denormalisedpermissions,file-annotations.likes,gatekeeper-ui-v2,v2.content.name.searcher,mobile.supported.version,confluence.editor.tinymce.tables,pulp,confluence-inline-comments,confluence-inline-comments-dangling-comment,quick-reload-inline-comments-flags,confluence.retention.rules">
+            <meta name="ajs-atl-token" content="34c13b6ef852c6fc6220ee2a108fb67bdd14324f">
+            <meta name="ajs-confluence-flavour" content="VANILLA">
+            <meta name="ajs-user-date-pattern" content="yyyy. M. d">
+            <meta name="ajs-access-mode" content="READ_WRITE">
+            <meta name="ajs-render-mode" content="READ_WRITE">
+            <meta name="ajs-date.format" content="MMM dd, yyyy">
+    
+    <link rel="shortcut icon" href="https://wiki.skplanet.com/s/-ajrdci/8804/47zayh/134/_/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://wiki.skplanet.com/s/-ajrdci/8804/47zayh/134/_/favicon.ico">
+
+
+    <script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.entity-types"]="{\u0022singular\u0022:{\u0022refapp.charlie\u0022:\u0022Charlie\u0022,\u0022fecru.project\u0022:\u0022Crucible \ud504\ub85c\uc81d\ud2b8\u0022,\u0022fecru.repository\u0022:\u0022FishEye \uc800\uc7a5\uc18c\u0022,\u0022stash.project\u0022:\u0022Stash \ud504\ub85c\uc81d\ud2b8\u0022,\u0022generic.entity\u0022:\u0022\uc77c\ubc18 \ud504\ub85c\uc81d\ud2b8\u0022,\u0022confluence.space\u0022:\u0022\ucee8\ud50c\ub8e8\uc5b8\uc2a4 \uacf5\uac04\u0022,\u0022bamboo.project\u0022:\u0022\ubc40\ubd80 \ud504\ub85c\uc81d\ud2b8\u0022,\u0022jira.project\u0022:\u0022Jira \ud504\ub85c\uc81d\ud2b8\u0022},\u0022plural\u0022:{\u0022refapp.charlie\u0022:\u0022Charlies\u0022,\u0022fecru.project\u0022:\u0022Crucible \ud504\ub85c\uc81d\ud2b8\u0022,\u0022fecru.repository\u0022:\u0022FishEye \uc800\uc7a5\uc18c\u0022,\u0022stash.project\u0022:\u0022Stash \ud504\ub85c\uc81d\ud2b8\u0022,\u0022generic.entity\u0022:\u0022\uc77c\ubc18 \uc0ac\uc5c5\u0022,\u0022confluence.space\u0022:\u0022\ucee8\ud50c\ub8e8\uc5b8\uc2a4 \uacf5\uac04\u0022,\u0022bamboo.project\u0022:\u0022\ubc40\ubd80 \ud504\ub85c\uc81d\ud2b8\u0022,\u0022jira.project\u0022:\u0022Jira \ud504\ub85c\uc81d\ud2b8\u0022}}";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:programmatic-analytics-init.programmatic-analytics-data-provider"]="false";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-license-banner:confluence-license-banner-resources.license-details"]="{\u0022daysBeforeLicenseExpiry\u0022:0,\u0022daysBeforeMaintenanceExpiry\u0022:0,\u0022showLicenseExpiryBanner\u0022:false,\u0022showMaintenanceExpiryBanner\u0022:false,\u0022renewUrl\u0022:null,\u0022salesUrl\u0022:null}";
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\u0022\u0022";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:policy-update-init.policy-update-data-provider"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.authentication-types"]="{\u0022com.atlassian.applinks.api.auth.types.BasicAuthenticationProvider\u0022:\u0022\uae30\ubcf8 \uc811\uadfc\u0022,\u0022com.atlassian.applinks.api.auth.types.TrustedAppsAuthenticationProvider\u0022:\u0022\uc2e0\ub8b0\ud558\ub294 \uc751\uc6a9\ud504\ub85c\uadf8\ub7a8\u0022,\u0022com.atlassian.applinks.api.auth.types.CorsAuthenticationProvider\u0022:\u0022CORS\u0022,\u0022com.atlassian.applinks.api.auth.types.OAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthWithImpersonationAuthenticationProvider\u0022:\u0022OAuth\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-search-ui-plugin:confluence-search-ui-plugin-resources.i18n-data"]="{\u0022search.ui.recent.link.text\u0022:\u0022\ub354 \ucd5c\uadfc\uc5d0 \ubc29\ubb38\ud55c \ud56d\ubaa9 \ubcf4\uae30\u0022,\u0022search.ui.search.results.empty\u0022:\u0022\u005C\u0022{0}\u005C\u0022\uc5d0 \uc77c\uce58\ud558\ub294 \uac80\uc0c9 \uacb0\uacfc\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.\u0022,\u0022search.ui.filter.clear.selected\u0022:\u0022\uc120\ud0dd\ub41c \ud56d\ubaa9 \uc9c0\uc6b0\uae30\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.button.text\u0022:\u0022\uc571 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30...\u0022,\u0022search.ui.filter.contributor.button.text\u0022:\u0022\uae30\uc5ec\uc790\u0022,\u0022search.ui.filter.space.current.label\u0022:\u0022\ud604\uc7ac\u0022,\u0022search.ui.clear.input.button.text\u0022:\u0022\ud14d\uc2a4\ud2b8 \uc9c0\uc6b0\uae30\u0022,\u0022search.ui.search.results.clear.button\u0022:\u0022\ud544\ud130\ub97c \uc9c0\uc6b0\uc2ed\uc2dc\uc624.\u0022,\u0022help.search.ui.link.title\u0022:\u0022\uac80\uc0c9 \ub3c4\uc6c0\ub9d0\u0022,\u0022search.ui.container.close.text\u0022:\u0022\ub2eb\uae30\u0022,\u0022search.ui.filter.date.month.text\u0022:\u0022\uc9c0\ub09c \ub2ec\u0022,\u0022search.ui.infinite.scroll.button.text\u0022:\u0022\ub354 \ub9ce\uc740 \uacb0\uacfc\u0022,\u0022search.ui.filter.date.button.text\u0022:\u0022\ub0a0\uc9dc\u0022,\u0022search.ui.filter.date.week.text\u0022:\u0022\uc9c0\ub09c \uc8fc\u0022,\u0022search.ui.result.subtitle.calendar\u0022:\u0022\ud300 \uce98\ub9b0\ub354\u0022,\u0022search.ui.filter.date.heading\u0022:\u0022\ub2e4\uc74c \uae30\uac04 \uc911 \ucd5c\uc885 \uc218\uc815\u0022,\u0022search.ui.filter.space.input.label\u0022:\u0022\uc2a4\ud398\uc774\uc2a4 \ucc3e\uae30...\u0022,\u0022search.ui.generic.error\u0022:\u0022\ubb38\uc81c\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4. \ubb38\uc81c\uac00 \uc9c0\uc18d\ub418\uba74 \ud398\uc774\uc9c0\ub97c \uc0c8\ub85c\uace0\uce68\ud558\uac70\ub098 \uad00\ub9ac\uc790\uc5d0\uac8c \ubb38\uc758\ud558\uc2ed\uc2dc\uc624.\u0022,\u0022search.ui.recent.spaces\u0022:\u0022\ucd5c\uadfc \uc2a4\ud398\uc774\uc2a4\u0022,\u0022search.ui.result.subtitle.space\u0022:\u0022\uc2a4\ud398\uc774\uc2a4\u0022,\u0022search.ui.filter.space.category.input.label\u0022:\u0022\uc2a4\ud398\uc774\uc2a4 \ubc94\uc8fc \ucc3e\uae30...\u0022,\u0022search.ui.filter.space.archive.label\u0022:\u0022\ubcf4\uad00\ub41c \uc2a4\ud398\uc774\uc2a4 \uac80\uc0c9\u0022,\u0022search.ui.filter.label\u0022:\u0022\ud544\ud130\u0022,\u0022search.ui.filter.date.all.text\u0022:\u0022\uc5b8\uc81c\ub77c\ub3c4\u0022,\u0022search.ui.filter.date.hour.text\u0022:\u0022\uc9c0\ub09c \ub0a0\uc9dc\u0022,\u0022search.ui.filters.heading\u0022:\u0022\ud544\ud130\ub9c1 \uae30\uc900\u0022,\u0022search.ui.filter.label.input.label\u0022:\u0022\ub808\uc774\ube14 \ucc3e\uae30...\u0022,\u0022search.ui.recent.items.anonymous\u0022:\u0022\ud0d0\uc0c9\uc744 \uc2dc\uc791\ud569\ub2c8\ub2e4. \uac80\uc0c9 \uacb0\uacfc\uac00 \uc5ec\uae30\uc5d0 \ub098\ud0c0\ub0a9\ub2c8\ub2e4.\u0022,\u0022search.ui.input.label\u0022:\u0022\uac80\uc0c9\u0022,\u0022search.ui.input.aria.label\u0022:\u0022\uac80\uc0c9, \uc785\ub825\ud558\uba74 \uacb0\uacfc\uac00 \uc544\ub798\uc5d0 \ud45c\uc2dc\ub429\ub2c8\ub2e4.\u0022,\u0022search.ui.search.result\u0022:\u0022{0,choice,1#{0}\uac1c \uac80\uc0c9 \uacb0\uacfc|1\u003c{0}\uac1c \uac80\uc0c9 \uacb0\uacfc}\u0022,\u0022search.ui.filter.label.button.text\u0022:\u0022\ub808\uc774\ube14\u0022,\u0022search.ui.container.clear.ariaLabel\u0022:\u0022\uc9c0\uc6b0\uae30\u0022,\u0022search.ui.input.alert\u0022:\u0022Enter \ud0a4\ub97c \ub20c\ub7ec \uac80\uc0c9 \uc2dc\uc791\u0022,\u0022search.ui.filter.no.result.text\u0022:\u0022\uadc0\ud558\uc758 \uac80\uc0c9\uacfc \uc77c\uce58\ud558\ub294 \uacb0\uacfc\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.\u0022,\u0022search.ui.result.subtitle.user\u0022:\u0022\uc0ac\uc6a9\uc790 \ud504\ub85c\ud544\u0022,\u0022search.ui.filter.contributor.input.label\u0022:\u0022\uc0ac\ub78c \ucc3e\uae30...\u0022,\u0022search.ui.filter.content.type.button.text\u0022:\u0022\uc720\ud615\u0022,\u0022search.ui.filter.date.year.text\u0022:\u0022\uc9c0\ub09c \ud574\u0022,\u0022search.ui.advanced.search.link.text\u0022:\u0022\uace0\uae09 \uac80\uc0c9\u0022,\u0022search.ui.filter.space.button.text\u0022:\u0022\uc2a4\ud398\uc774\uc2a4\u0022,\u0022search.ui.search.results.clear.line2\u0022:\u0022\ub2e4\ub978 \uac80\uc0c9\uc5b4\ub85c \uc2dc\ub3c4\ud558\uac70\ub098\u0022,\u0022search.ui.filter.space.category.button.text\u0022:\u0022\uc2a4\ud398\uc774\uc2a4 \ubc94\uc8fc\u0022,\u0022search.ui.search.results.clear.line1\u0022:\u0022\uadc0\ud558\uc758 \uac80\uc0c9\uacfc \uc77c\uce58\ud558\ub294 \uacb0\uacfc\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.admin.button.text\u0022:\u0022\uc124\uc815 \ubc0f \uc571 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30...\u0022,\u0022search.ui.recent.pages\u0022:\u0022\ucd5c\uadfc \ubc29\ubb38\u0022,\u0022search.ui.search.result.anonymous\u0022:\u0022{0,choice,1#{0}\uac1c \uac80\uc0c9 \uacb0\uacfc|1\u003c{0}\uac1c \uac80\uc0c9 \uacb0\uacfc}\uac00 \uc788\uc2b5\ub2c8\ub2e4. \uacc4\uc815\uc774 \uc788\uc73c\uc2ed\ub2c8\uae4c? {1}\ub85c\uadf8\uc778{2}\ud574\uc11c \uac80\uc0c9 \uacb0\uacfc\ub97c \ud655\uc7a5\ud558\uc2ed\uc2dc\uc624.\u0022,\u0022search.ui.recent.items.empty\u0022:\u0022\ud0d0\uc0c9\uc744 \uc2dc\uc791\ud569\ub2c8\ub2e4. \ucd5c\uadfc\uc5d0 \ubc29\ubb38\ud55c \ud398\uc774\uc9c0 \ubc0f \uc2a4\ud398\uc774\uc2a4\uac00 \uc5ec\uae30\uc5d0 \ub098\ud0c0\ub0a9\ub2c8\ub2e4.\u0022,\u0022search.ui.filter.space.init.heading\u0022:\u0022\ucd5c\uadfc \uc2a4\ud398\uc774\uc2a4\u0022}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-types"]="{\u0022crowd\u0022:\u0022Crowd\u0022,\u0022confluence\u0022:\u0022\ucee8\ud50c\ub8e8\uc5b8\uc2a4\u0022,\u0022fecru\u0022:\u0022Fisheye / Crucible\u0022,\u0022stash\u0022:\u0022Stash\u0022,\u0022jira\u0022:\u0022Jira\u0022,\u0022refapp\u0022:\u0022\ucc38\uc870 \uc751\uc6a9\ud504\ub85c\uadf8\ub7a8\u0022,\u0022bamboo\u0022:\u0022\ubc40\ubd80\u0022,\u0022generic\u0022:\u0022\uc77c\ubc18 \uc751\uc6a9\ud504\ub85c\uadf8\ub7a8\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.synchrony-interop:synchrony-status-banner-loader.synchrony-status"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-help-paths"]="{\u0022entries\u0022:{\u0022applinks.docs.root\u0022:\u0022https://confluence.atlassian.com/display/APPLINKS-082/\u0022,\u0022applinks.docs.diagnostics.troubleshoot.sslunmatched\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthsignatureinvalid\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthtimestamprefused\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.delete.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.adding.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administration.guide\u0022:\u0022Application+Links+Documentation\u0022,\u0022applinks.docs.oauth.security\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.troubleshoot.application.links\u0022:\u0022Troubleshoot+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownerror\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.trusted.apps\u0022:\u0022Configuring+Trusted+Applications+authentication+for+an+application+link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelunsupported\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.ssluntrusted\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownhost\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.delete.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.adding.project.link\u0022:\u0022Configuring+Project+links+across+Applications\u0022,\u0022applinks.docs.link.applications\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthproblem\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.migration\u0022:\u0022Update+application+links+to+use+OAuth\u0022,\u0022applinks.docs.relocate.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administering.entity.links\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.upgrade.application.link\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.connectionrefused\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.oauth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.insufficient.remote.permission\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.configuring.application.link.auth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics\u0022:\u0022Application+links+diagnostics\u0022,\u0022applinks.docs.configured.authentication.types\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.adding.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unexpectedresponse\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.basic\u0022:\u0022Configuring+Basic+HTTP+Authentication+for+an+Application+Link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelmismatch\u0022:\u0022OAuth+troubleshooting+guide\u0022}}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-feature-discovery-plugin:confluence-feature-discovery-plugin-resources.test-mode"]="false";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link rel="stylesheet" href="{% static 'batch.css' %}" data-wrm-key="_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="{% static 'batch2.css' %}" data-wrm-key="refined.main,main,-_super" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="{% static 'batch3.css' %}" data-wrm-key="atl.general,-_super" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="{% static 'batch4.css' %}" data-wrm-key="login,-_super" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="{% static 'print-style.css' %}" media="print" data-wrm-key="com.refinedwiki.confluence.plugins.theme.original:print-style" data-wrm-batch-type="resource">
+<link rel="stylesheet" href="{% static 'default-theme.css' %}" media="all">
+<link rel="stylesheet" href="/s/-ajrdci/8804/47zayh/7.3.12/_/download/resources/com.refinedwiki.confluence.plugins.theme.original:RefinedWikiTheme50/atlassian-editor.css" media="all">
+<link rel="stylesheet" href="{% static 'custom.css'%}" media="all">
+<script data-wrm-key="com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="resource" data-initially-rendered="">
+!function(){"use strict";if("PerformanceObserver"in window){const e=[];window.__observedResources=e;const r=e=>"script"===e?"script":"css";new PerformanceObserver((n=>{n.getEntries().filter((({initiatorType:e,name:r})=>{const n="script"===e||((e,r)=>"link"===e&&"css"===new URL(r).pathname.split(".").pop())(e,r),i=new URL(location.href).origin===new URL(r).origin;return n&&i})).forEach((({name:n,transferSize:i,encodedBodySize:s,initiatorType:o})=>{e.push([i,s,n,r(o)])}))})).observe({type:"resource"})}}();
+
+</script>
+<script src="{% static 'batch5.js' %}" data-wrm-key="_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="context" data-initially-rendered=""></script>
+<script src="{% static 'batch.js' %}" data-wrm-key="refined.main,main,-_super" data-wrm-batch-type="context" data-initially-rendered=""></script>
+<script src="{% static 'batch.js' %}" data-wrm-key="atl.general,-_super" data-wrm-batch-type="context" data-initially-rendered=""></script>
+<script src="{% static 'login.js' %}" data-wrm-key="confluence.web.resources:login" data-wrm-batch-type="resource" data-initially-rendered=""></script>
+<script type="module">WRM.requireLazily(["wr!com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-async"])</script>
+    
+	
+	<script>
+						if (typeof RW === 'undefined') {
+			var RW = {};
+		}
+
+		if (typeof RWJS === 'undefined') {
+		  var RWJS = {};
+		}
+						RWJS.showLoader = function(){
+		  console.warn("RWJS.showLoader access from velocity deprecated");
+		}
+        RWJS.hideLoader = function(){
+          console.warn("RWJS.hideLoader access from velocity deprecated");
+		}
+
+
+		        RW._versionChecker = {
+            comparedTo66: 1,
+            comparedTo614: 1,
+            comparedTo70: 1,
+            comparedTo74: 1,
+            comparedTo710: 1,
+            comparedTo712: 1
+        };
+
+                        
+                    RW._isConfluenceAdministrator = false;
+                    RW._isConfluenceOrRefinedAdmin = false;
+
+                    RW._defaultApplinks = 'https://jira.skplanet.com';
+
+		                RW._isSiteAdministrator = false;
+
+					RW._blogPortalEnabled = true;
+		
+                RW._isHtmlModuleDisabled = false;
+				RW._userDashboardsEnabled = true;
+
+        RW._canViewProfiles = false;
+				
+				RW._cacheSettings = {};
+        RW._cacheSettings.params = {};
+        RW._cacheSettings.lastChange = {};
+
+            
+                        RW._cacheSettings.params['footer'] = true;
+                                        RW._cacheSettings.params['userdetails'] = true;
+                                        RW._cacheSettings.params['globalmenu'] = true;
+                                        RW._cacheSettings.params['usercategory'] = true;
+                                        RW._cacheSettings.params['category'] = true;
+                                        RW._cacheSettings.params['docache'] = true;
+                                                                    RW._cacheSettings.lastChange['footer'] = 1723480873401;
+                                        RW._cacheSettings.lastChange['userdetails'] = 1723513222267;
+                                        RW._cacheSettings.lastChange['globalmenu'] = 1723480873401;
+                                        RW._cacheSettings.lastChange['usercategory'] = 1723513222266;
+                                        RW._cacheSettings.lastChange['category'] = 1723451989115;
+            
+                                    RW._siteId = 0;
+            RW._siteName = 'Global Site';
+            RW._siteType = '';
+                    RW._clusterNodeId = '';
+        RW._rootCategoryKey = ''; // The active root category
+        RW._categoryKey = '';
+        RW._categoryName = '';
+        RW._spaceName = '';
+        RW._spaceKey = '';
+        RW._pageId = '';
+
+        // Keyboard shortcuts add-on status
+        RW.shortcutsEnabled = function() {
+            return Confluence && Confluence.KeyboardShortcuts && Confluence.KeyboardShortcuts.enabled;
+        };
+
+        // Different Home Context
+                    
+        // Layout preview draft status
+        RW._isDraftPreview = function() {
+          return window.location.href.indexOf('draft=true') >= 0;
+        }
+
+        // Check if layouteditor can be executed
+        RW._isLayoutEditorAvailable = function() {
+          // Layout Preview mode is off
+          if (!RW._isDraftPreview()) {
+            // Layouteditor is invisible
+            if (document.querySelector('#rw_layouteditor').style.display === 'none') {
+              return true;
+            }
+		  }
+		  return null;
+        };
+	</script>
+
+
+
+
+<!--[if !IE]><!-->
+ 	<style type="text/css">
+		.rw_toolbar_menu li .rw_toolbar_dropdown li a:hover
+		{
+			color: #172B4D;
+			background: #EBECF0;
+		}
+
+		/* Scroll office fix */
+		#com-k15t-confluence-scroll-pdf-launcher:hover
+		{
+			color: #172B4D;
+			background: #EBECF0;
+		}
+	</style>
+<!--<![endif]-->
+
+			
+	    <script>
+        window.RW._theme = {"id":1,"name":"Edge Orange","version":21,"date":null,"niceDate":null,"author":null,"comment":null,"systemType":"user-created","hidden":false,"type":"content","attributes":{"header_variant":"1row","bodyBackground_colour":"#ec933b","contentHeaderTheme_selected":"menu_solid","navMenuActiveTextColour_colour":"rgba(255, 255, 255, 1)","headerShadow_active":"shadow","sidebarBackground_colour":"#444444","bodyBackground_active":"colour","navMenuHoverBackground_active":"colour","navmenu_variant":"traditional","navMenuTextSize_selected":"regular","navMenuActiveBackground_colour":"rgba(255,255,255,0.2)","siteHomeTheme_selected":"dashboards_gray1","contentWidth_size":"92%","contentCorners_boolean":true,"sidebarFontColour_colour":"#999999","appearance_variant":"top","navMenuActiveBackground_active":"colour","navMenuTextColour_colour":"rgba(255, 255, 255, 0.75)","headerHeight_selected":"tighter","sidebarHoverFontColour_colour":"#FFFFFF","navMenuHoverBackground_colour":"rgba(0, 0, 0, 0.17)","headerWidth_size":"100%","spaceTheme_selected":"spaces_gray1","logoSize_selected":"medium","navMenuHoverTextColour_colour":"rgba(255, 255, 255, 1)","popupTheme_selected":"dark","sidebarHoverBackground_colour":"#555555","navMenuDropDownTheme_selected":"dark","footerTheme_selected":"light"},"active":null,"canEdit":false,"icon":null,"features":[{"id":"background","options":[{"id":"top","icon":null,"enabled":true,"sections":[{"id":"general","selector":null,"hash":null,"tnts":[{"id":"corners","type":"tweak-boolean","value":{"checked":false},"treats":null,"enabled":null},{"id":"effect","type":"tweak-icon","value":{"selected":"effects_shadow_down"},"treats":[{"id":"colour","type":"treatment-colour","value":{"colour":"rgba(0, 0, 0, 0.2)"},"treats":null,"enabled":null}],"enabled":null}]},{"id":"background1","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-background","value":{"variant":"colour","colour":"#ec933b","gradient":{"top":"#ec933b","bottom":"#e35e21"},"secondaryColour":"ffa241"},"treats":null,"enabled":null}]}]}]},{"id":"header","options":[{"id":"1row","icon":null,"enabled":true,"sections":[{"id":"general","selector":null,"hash":null,"tnts":[{"id":"height","type":"tweak-dropdown","value":{"selected":"tight"},"treats":null,"enabled":null},{"id":"width","type":"tweak-width","value":{"width":"100%"},"treats":null,"enabled":null}]},{"id":"logo","selector":null,"hash":null,"tnts":[{"id":"size","type":"tweak-dropdown","value":{"selected":"medium"},"treats":null,"enabled":null}]}]}]},{"id":"navmenu","options":[{"id":"traditional","icon":null,"enabled":true,"sections":[{"id":"general","selector":null,"hash":null,"tnts":[{"id":"corners","type":"tweak-boolean","value":{"checked":false},"treats":null,"enabled":null},{"id":"textsize","type":"tweak-dropdown","value":{"selected":"regular"},"treats":null,"enabled":null},{"id":"dividers","type":"tweak-boolean","value":{"checked":false},"treats":[],"enabled":null}]},{"id":"active","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-background","value":{"variant":"colour","colour":"rgba(255,255,255,0.2)","gradient":{"top":"#fff","bottom":"#ddd"}},"treats":[],"enabled":null},{"id":"textcolour","type":"tweak-colour","value":{"colour":"rgba(255, 255, 255, 1)"},"treats":null,"enabled":null}]},{"id":"item","selector":null,"hash":null,"tnts":[{"id":"textcolour","type":"tweak-colour","value":{"colour":"rgba(255, 255, 255, 0.75)"},"treats":null,"enabled":null}]},{"id":"hover","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-background","value":{"variant":"colour","colour":"rgba(0, 0, 0, 0.17)","gradient":{"top":"#fff","bottom":"#ddd"},"secondaryColour":"#cd0000"},"treats":[],"enabled":null},{"id":"textcolour","type":"tweak-colour","value":{"colour":"rgba(255, 255, 255, 1)"},"treats":null,"enabled":null}]}]}]},{"id":"content","options":[{"id":"content","icon":null,"enabled":true,"sections":[{"id":"general","selector":null,"hash":null,"tnts":[{"id":"corners","type":"tweak-boolean","value":{"checked":true},"treats":null,"enabled":null},{"id":"width","type":"tweak-width","value":{"width":"92%"},"treats":null,"enabled":null}]},{"id":"menu","selector":null,"hash":null,"tnts":[{"id":"style","type":"tweak-icon","value":{"selected":"menu_solid"},"treats":null,"enabled":null}]},{"id":"spaces","selector":null,"hash":null,"tnts":[{"id":"style","type":"tweak-icon","value":{"selected":"spaces_gray1"},"treats":null,"enabled":null}]},{"id":"dashboards","selector":null,"hash":null,"tnts":[{"id":"style","type":"tweak-icon","value":{"selected":"dashboards_gray1"},"treats":null,"enabled":null}]}]}]},{"id":"extras","options":[{"id":"extras","icon":null,"enabled":true,"sections":[{"id":"categorydropdown","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-dropdown","value":{"selected":"dark"},"treats":null,"enabled":null}]},{"id":"popups","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-dropdown","value":{"selected":"dark"},"treats":null,"enabled":null}]},{"id":"globalmenu","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-dropdown","value":{"selected":"dark"},"treats":null,"enabled":null}]},{"id":"footer","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-dropdown","value":{"selected":"light"},"treats":null,"enabled":null}]}]}]}],"themeCssUri":"/plugins/servlet/rw-resources/themes/1/css/theme-1-21.css"};
+    </script>
+	
+
+	<link type="text/css" rel="stylesheet" href="{% static 'theme-1-21.css' %}" media="all">
+
+
+			<style type="text/css">
+  #rw_wrapper.rw_effects_popup_shadow .rw_shadow_top { width: calc(100% + 40px); }
+  #rw_wrapper.rw_effects_popup_shadow .rw_shadow_top:after { width: calc(100% - 40px); }
+  #rw_wrapper.rw_effects_popup_border .rw_shadow_top { width: calc(100% + 2px); }
+</style>
+
+
+
+                    
+<style type="text/css">
+	/* Key navigation in popup */
+	.rw_key_nav li.rw_selected a {
+        background-color: #$keyNavColor !important;
+        border-color: #$keyNavColor !important;
+                box-shadow: none;
+    }
+    .rw_key_nav li.rw_selected * { color: #fff !important; }
+    .rw_key_nav li.rw_selected a span.rw_item_left { background: none !important; border-color:unset !important;}
+
+	/* Key navigation category menu */
+	#rw_category_menu ul li.rw_active.rw_selected a > span { border-color: #$keyNavColor; }
+
+	/* Confluence questions  */
+	.rw_navigation_module_questions ul li.rw_selected { background: #$keyNavColor; }
+	.rw_category_dd_theme_dark #rw_category_dropdown_wrapper .rw_navigation_module_questions ul li.rw_selected { background: #$keyNavColor; }
+
+	/* Key navigation for page tree */
+	.rw_pagetree_list li.rw_selected > div.rw_icon_content { background: #$keyNavColor !important; border-color: #$keyNavColor !important; }
+	.rw_pagetree_list li.rw_selected > div.rw_icon_content a { color:#fff !important;}
+	.rw_pagetree_list li.rw_selected a {background: none !important; border-color: unset; color:#333 !important;}
+
+	/* Key navigation for activity popup */
+	li.rw_selected div.rw_no_link { background: #$keyNavColor !important; border-color: #$keyNavColor !important; }
+    .rw_popup_design_default .rw_popup .rw_activity_module .rw_selected,
+    .rw_popup_design_confluence .rw_popup .rw_activity_module .rw_selected {
+        background: #$keyNavColor !important;
+    }
+
+	/* Main Key Navigation */
+	.rw_keynavigation_row > div.rw_selected { background: #$keyNavColor !important; color:#fff !important;}
+	.rw_keynavigation_container > div.rw_keynavigation_empty_item { background: none;}
+
+    /* Key Navigation in search module */
+    .rw_search_module_results ul li.rw_selected a {
+        background: #$keyNavColor !important;
+        border-color: #$keyNavColor !important;
+        color: #fff;
+    }
+
+	/* Menu keynav exceptions */
+	#notifications-anchor.rw_selected {background: #$keyNavColor !important; color:#fff !important;}
+
+
+	
+
+	#rw_menu_bar #rw_create_button .aui-button,
+	#rw_inline_dialog_page_menu #rw_create_button .aui-button,
+    .rw_create_blogpost_button.aui-button
+	{
+	  background-image: -moz-linear-gradient(top, #0065FF, #0057dc);
+	  background-image: -ms-linear-gradient(top,  #0065FF, #0057dc);
+	  background-image: -webkit-linear-gradient(top,  #0065FF, #0057dc);
+	  background-image: -o-linear-gradient(top,  #0065FF, #0057dc);
+	  background-image: linear-gradient(top,  #0065FF, #0057dc);
+	  text-shadow: none;
+	  color: #ffffff;
+	}
+
+    #rw_menu_bar #rw_create_button .aui-button,
+    #rw_inline_dialog_page_menu #rw_create_button .aui-button,
+    .rw_create_blogpost_button.aui-button
+    {
+      border-color: #0065FF;
+    }
+    #rw_main #rw_create_button .aui-button:hover,
+    #rw_main #rw_create_button .aui-button:focus,
+    #rw_inline_dialog_page_menu #rw_create_button .aui-button:hover,
+    #rw_inline_dialog_page_menu #rw_create_button .aui-button:focus,
+    .rw_create_blogpost_button.aui-button:hover,
+    .rw_create_blogpost_button.aui-button:focus
+    {
+      background-image: -moz-linear-gradient(top, #2e81ff, #025be4);
+      background-image: -ms-linear-gradient(top, #2e81ff, #025be4);
+      background-image: -webkit-linear-gradient(top, #2e81ff, #025be4);
+      background-image: -o-linear-gradient(top, #2e81ff, #025be4);
+      background-image: linear-gradient(top, #2e81ff, #025be4);
+    }
+
+    .rw_create_blogpost_button.aui-button {
+	  border: 0;
+    }
+    .rw_create_blogpost_button.aui-button:hover {
+      color: #ffffff;
+	}
+
+
+		
+
+
+    	        #com-atlassian-confluence #inline-dialog-notifications-miniview
+        {
+            position:fixed;
+            top: 57px !important;
+            right: 80px !important;
+			margin: 0px !important;
+        }
+        #com-atlassian-confluence #inline-dialog-notifications-miniview:after,
+        #com-atlassian-confluence #inline-dialog-notifications-miniview:before
+        {
+            border: medium solid transparent;
+            bottom: 100%;
+            content: " ";
+            height: 0;
+            pointer-events: none;
+            position: absolute;
+            width: 0;
+        }
+        #com-atlassian-confluence #inline-dialog-notifications-miniview:after
+        {
+
+            border-color: rgba(237, 237, 237, 0) rgba(237, 237, 237, 0) rgba(237, 237, 237, 0) #fff;
+            border-width: 8px;
+            top:22px;
+            right: -15px;
+        }
+        #com-atlassian-confluence #inline-dialog-notifications-miniview:before
+        {
+            border-color: rgba(221, 221, 221, 0) rgba(221, 221, 221, 0) rgba(221, 221, 221, 0) #ddd;
+            border-width: 10px;
+            top: 20px;
+            right: -19px;
+        }
+        #com-atlassian-confluence #inline-dialog-notifications-miniview #arrow-notifications-miniview
+        {
+            display:none;
+        }
+	
+</style>
+
+    <script>jQuery(document).ready(function(){ jQuery(".external-link").attr("target", "_blank");});</script>
+
+<script src="{% static 'data-collector-async.js'%}"></script>
+<script src="{% static 'batch.js' %}"></script>
+<script src="./로그인 - WIKI_files/batch(4).js.다운로드"></script>
+
+</head>

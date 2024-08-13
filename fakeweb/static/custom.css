@@ -1,0 +1,28 @@
+
+body {    
+    font-family: Arial, Helvetica,"malgun gothic", sans-serif;
+    font-size: 13px;
+    color: black;
+}
+.wiki-content,
+.wiki-content p,
+.wiki-content table,
+.wiki-content tr,
+.wiki-content td,
+.wiki-content th,
+.wiki-content ol,
+.wiki-content ul,
+.wiki-content li { 
+    font-size: 13px;
+}
+
+#forgot-password {
+    display:none;
+}
+
+[data-web-item-key=removespace] {
+  visibility:hidden !important;
+}
+
+
+

