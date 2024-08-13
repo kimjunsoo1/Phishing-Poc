@@ -12,5 +12,5 @@
 *.vsix
 
 venv/
-
 .env
+db.sqlite3
