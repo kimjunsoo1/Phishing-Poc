@@ -1,4 +1,4 @@
-FROM python:3.9.0
+FROM python:3.12.0
 
 WORKDIR /home/
 
@@ -6,14 +6,14 @@ RUN echo "testing1234"
 
 RUN git clone https://github.com/kimjunsoo1/Phishing-Poc.git
 
-WORKDIR /home/pragmatic/
+WORKDIR /home/Phishing-Poc/fakeweb
 
 RUN pip install -r requirements.txt
 
 RUN pip install gunicorn
 
-RUN pip install mysqlclient
+RUN echo "SECRET_KEY=django-insecure-q_2!j115dbsl22g#i5!@=*_@1e=&o+#3-o4@a_zfdj$qqy7zm*" > .env
 
 EXPOSE 8000
 
-CMD ["bash", "-c", "python manage.py collectstatic --noinput --settings=pragmatic.settings.deploy && python manage.py migrate --settings=pragmatic.settings.deploy && gunicorn pragmatic.wsgi --env DJANGO_SETTINGS_MODULE=pragmatic.settings.deploy --bind 0.0.0.0:8000"]
+CMD ["python", "manage.py","runserver", "0.0.0.0:8000"]
