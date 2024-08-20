@@ -16,4 +16,4 @@ RUN echo "SECRET_KEY=django-insecure-q_2!j115dbsl22g#i5!@=*_@1e=&o+#3-o4@a_zfdj$
 
 EXPOSE 80
 
-CMD ["python", "manage.py","runserver", "0.0.0.0:8000"]
+CMD ["python", "manage.py","runserver", "0.0.0.0:80"]
