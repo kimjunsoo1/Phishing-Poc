@@ -14,6 +14,6 @@ RUN pip install gunicorn
 
 RUN echo "SECRET_KEY=django-insecure-q_2!j115dbsl22g#i5!@=*_@1e=&o+#3-o4@a_zfdj$qqy7zm*" > .env
 
-EXPOSE 8000
+EXPOSE 80
 
 CMD ["python", "manage.py","runserver", "0.0.0.0:8000"]
